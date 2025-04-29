@@ -29,10 +29,10 @@ def Preprocessing_Func(age, gender, height, weight, ap_hi, ap_lo, cholesterol, g
     
     # Load the scaler
     with open("pklFiles/StandardScaler.pkl", "rb") as f:
-        scaler1 = Imports.pickle.load(f)
+        scaler1 = pickle.load(f)
 
     with open("pklFiles/PowerTransformation.pkl", "rb") as f:
-        scaler2 = Imports.pickle.load(f)
+        scaler2 = pickle.load(f)
 
     # Convert dictionary to DataFrame
     Healthcare = Imports.pd.DataFrame(data)

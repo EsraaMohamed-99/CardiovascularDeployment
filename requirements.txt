@@ -7,3 +7,4 @@ scipy
 plotly
 scikit-learn
 xgboost
+lightgbm

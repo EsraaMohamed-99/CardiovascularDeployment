@@ -1,5 +1,5 @@
 from Scripts import Imports
-import pickle
+import joblib
 # Add BMI Category
 def bmi_category(bmi):
     if bmi < 18.5:
@@ -29,10 +29,10 @@ def Preprocessing_Func(age, gender, height, weight, ap_hi, ap_lo, cholesterol, g
     
     # Load the scaler
     with open("pklFiles/StandardScaler.pkl", "rb") as f:
-        scaler1 = pickle.load(f)
+        scaler1 = joblib.load(f)
 
     with open("pklFiles/PowerTransformation.pkl", "rb") as f:
-        scaler2 = pickle.load(f)
+        scaler2 = joblib.load(f)
 
     # Convert dictionary to DataFrame
     Healthcare = Imports.pd.DataFrame(data)

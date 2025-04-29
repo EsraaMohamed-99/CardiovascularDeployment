@@ -1,2 +1,0 @@
-# CardiovascularDeployment
-Deployment with streamlit

@@ -1,4 +1,5 @@
 from Scripts import Imports
+import pickle
 def Prediction(df):
 	# Load model
 	with open("pklFiles/best_lgbm_model.pkl", "rb") as f:

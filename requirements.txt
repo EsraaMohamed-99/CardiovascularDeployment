@@ -1,4 +1,3 @@
-streamlit
 pandas
 numpy
 matplotlib
@@ -7,3 +6,6 @@ scipy
 plotly
 scikit-learn
 xgboost
+streamlit
+base64
+pickle5

@@ -23,7 +23,7 @@ from sklearn.ensemble import AdaBoostClassifier
 from sklearn.svm import SVC
 import warnings
 from sklearn.preprocessing import PowerTransformer
-import joblib
+import pickle
 import streamlit as st
 import base64  # Make sure to import the base64 module
 # Ignore all warnings
